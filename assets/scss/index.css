@@ -503,16 +503,19 @@ footer img {
   font-size: 14px;
   color: #666;
 }
-.section2 .box-outer .box:hover {
+.section2.on .box-outer .box {
+  transition: all 0.4s !important;
+}
+.section2.on .box-outer .box:hover {
   background-color: var(--color-point);
 }
-.section2 .box-outer .box:hover * {
+.section2.on .box-outer .box:hover * {
   color: var(--color-white);
 }
-.section2 .box-outer .box:hover .go-link {
+.section2.on .box-outer .box:hover .go-link {
   background-color: var(--color-white);
 }
-.section2 .box-outer .box:hover .go-link img {
+.section2.on .box-outer .box:hover .go-link img {
   filter: brightness(0) saturate(100%) invert(14%) sepia(76%) saturate(2342%) hue-rotate(216deg) brightness(102%) contrast(100%);
 }
 
@@ -638,7 +641,7 @@ body {
   width: 69px;
   height: 46px;
   display: block;
-  background-image: url(https://revehit.github.io/oneshot2/images/icon-notice.png);
+  background-image: url(https://revehit.github.io/oneshot2/assets/images/icon-notice.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -647,7 +650,7 @@ body {
   width: 65px;
   height: 30px;
   display: block;
-  background-image: url(https://revehit.github.io/oneshot2/images/icon-link.png);
+  background-image: url(https://revehit.github.io/oneshot2/assets/images/icon-link.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -18,6 +18,7 @@
       max-width: 350px;
       background-color: var(--color-white);
       padding: 30px;
+      //transition: all 0.4s !important;
       .point {
         font-size: 20px;
         font-weight: bold;
@@ -56,16 +57,24 @@
         font-size: 14px;
         color: #666;
       }
-      &:hover {
-        background-color: var(--color-point);
-        * {
-          color: var(--color-white);
-        }
-        .go-link {
-          background-color: var(--color-white);
-          img {
-            filter: brightness(0) saturate(100%) invert(14%) sepia(76%)
-              saturate(2342%) hue-rotate(216deg) brightness(102%) contrast(100%);
+    }
+  }
+  &.on {
+    .box-outer {
+      .box {
+        transition: all 0.4s !important;
+        &:hover {
+          background-color: var(--color-point);
+          * {
+            color: var(--color-white);
+          }
+          .go-link {
+            background-color: var(--color-white);
+            img {
+              filter: brightness(0) saturate(100%) invert(14%) sepia(76%)
+                saturate(2342%) hue-rotate(216deg) brightness(102%)
+                contrast(100%);
+            }
           }
         }
       }

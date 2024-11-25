@@ -194,16 +194,19 @@ footer img {
   font-size: 14px;
   color: #666;
 }
-.section2 .box-outer .box:hover {
+.section2.on .box-outer .box {
+  transition: all 0.4s !important;
+}
+.section2.on .box-outer .box:hover {
   background-color: var(--color-point);
 }
-.section2 .box-outer .box:hover * {
+.section2.on .box-outer .box:hover * {
   color: var(--color-white);
 }
-.section2 .box-outer .box:hover .go-link {
+.section2.on .box-outer .box:hover .go-link {
   background-color: var(--color-white);
 }
-.section2 .box-outer .box:hover .go-link img {
+.section2.on .box-outer .box:hover .go-link img {
   filter: brightness(0) saturate(100%) invert(14%) sepia(76%) saturate(2342%) hue-rotate(216deg) brightness(102%) contrast(100%);
 }
 
