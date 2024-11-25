@@ -1,0 +1,42 @@
+.section3 {
+  .title-with-btn {
+    position: relative;
+    margin-bottom: 60px;
+    .icon-title {
+    }
+    .control-box {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+  h3 {
+    font-size: 45px;
+    // font-family: "ONE-Mobile";
+    text-align: center;
+  }
+  .slider-wrap {
+    display: flex;
+    align-items: center;
+  }
+  .bx-wrapper {
+    box-shadow: none;
+    border: 0;
+    max-width: 100%;
+  }
+  .control-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c8c8c8;
+  }
+}
