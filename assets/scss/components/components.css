@@ -7,7 +7,7 @@ header.active {
 }
 header.active .header-inner h1 img {
   height: 44px;
-  content: url(https://revehit.github.io/oneshot2//images/img-toplogo-bk.png);
+  content: url(https://revehit.github.io/oneshot2/images/img-toplogo-bk.png);
 }
 header.active .header-inner span {
   color: #111;
@@ -17,7 +17,7 @@ header.active .header-inner nav li a {
 }
 header h1 img {
   height: 44px;
-  content: url(https://revehit.github.io/oneshot2//images/img-toplogo.png);
+  content: url(https://revehit.github.io/oneshot2/images/img-toplogo.png);
 }
 
 .header-inner {
@@ -60,7 +60,7 @@ footer img {
 .section1 .box-outer .left .box {
   height: 100%;
   display: flex;
-  background-image: url(https://revehit.github.io/oneshot2//images/img-sec1-main);
+  background-image: url(https://revehit.github.io/oneshot2/images/img-sec1-main);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px;
@@ -109,7 +109,7 @@ footer img {
   width: 130px;
   height: 17px;
   display: block;
-  background-image: url(https://revehit.github.io/oneshot2//images/icon-sec1-sd.png);
+  background-image: url(https://revehit.github.io/oneshot2/images/icon-sec1-sd.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -141,7 +141,7 @@ footer img {
   padding-bottom: 60px;
 }
 .section2 .box-outer {
-  background-image: url(https://revehit.github.io/oneshot2//images/img-sec2.jpg);
+  background-image: url(https://revehit.github.io/oneshot2/images/img-sec2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
