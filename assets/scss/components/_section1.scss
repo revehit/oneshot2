@@ -7,13 +7,49 @@
       .box {
         height: 100%;
         display: flex;
-        background-image: url(https://revehit.github.io/oneshot2/assets/images/img-sec1-main);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 90px;
+        position: relative;
       }
       h2 {
         margin-top: auto;
+        position: absolute;
+        bottom: 90px;
+        left: 90px;
+        z-index: 2;
+      }
+      .bx-wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        background: red;
+        box-shadow: none;
+        border: 0;
+        margin: 0;
+        .bx-viewport {
+          height: 100% !important;
+        }
+        .slide-item {
+          height: 100% !important;
+          img {
+            height: 100%;
+          }
+        }
+        .bx-pager {
+          position: absolute;
+          bottom: 50px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .bx-pager-link {
+          color: #666;
+          background: #666;
+          &.active {
+            background: var(--color-white);
+          }
+          &:hover {
+            background: var(--color-white);
+          }
+        }
       }
     }
     .right {
@@ -23,8 +59,8 @@
       gap: 20px;
       a {
         width: calc(50% - 10px);
-        min-height: 320px;
-        padding: 70px 50px;
+        min-height: 280px; //320
+        padding: 50px;
         background-color: #f0f2fa;
         position: relative;
         transition: all 0.4s;

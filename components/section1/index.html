@@ -1,9 +1,29 @@
 <div class="container">
   <div class="box-outer">
     <div class="left">
-      <a href="javascript:void(0);" class="box">
+      <div class="box">
         <h2>사업재편기업에<br />대한 다양한 지원</h2>
-      </a>
+        <div class="slider-box">
+          <div class="slide-item">
+            <img
+              src="https://revehit.github.io/oneshot2/assets/images/img-sec1-main"
+              alt=""
+            />
+          </div>
+          <div class="slide-item">
+            <img
+              src="https://revehit.github.io/oneshot2/assets/images/img-sec1-main2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide-item">
+            <img
+              src="https://revehit.github.io/oneshot2/assets/images/img-sec1-main3.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
     <div class="right">
       <a href="javascript:void(0);" class="box box1">
@@ -54,3 +74,15 @@
     </div>
   </div>
 </div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    var sec1Slider = $(".slider-box").bxSlider({
+      auto: true,
+      speed: 200,
+      infiniteLoop: true,
+      controls: false,
+      pager: true,
+      autoControls: false,
+    });
+  });
+</script>
